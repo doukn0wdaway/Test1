@@ -1,1 +1,14 @@
-asdknaskdkla sklasdkl akls
+$TTL 86400
+@ 86400 IN SOA ns.example.org. root.example.org. (
+				2003090501
+				28800
+				7200
+				604800
+				86400)
+IN NS ns.example.org.
+1 IN PTR ns.example.org.
+1 IN PTR test.example.org.
+2 IN PTR cmp1.example.org.
+3 IN PTR cmp2.example.org.
+4 IN PTR cmp3.example.org.
+5 IN PTR cmp4.example.org.
