@@ -1,13 +1,14 @@
-@ IN SOA myrouter olexander.hostischev.edu.ua (
-		20240926001
-		28800
-	        7200
-	        684800
-	        86400)
-	IN NS 172.16.16.16
-myrouter-olexander IN A 172.16.16.16
-pc1 IN A 172.16.16.17
-pc2 IN A 172.16.16.18
-pc3 IN A 172.16.16.19
-pc4 IN A 172.16.16.20
-pc5 IN A 172.16.16.21
+$TTL 86480
+@ IN SOA ns.hostischev.edu.ua. root.hostischev.edu.ua. (
+		2024892601;
+		28808;
+		7288:
+		684888;
+		86488);
+@	IN NS ns. hostischev.edu.ua.
+1 IN PTR ns.hostischev.edu.ua.
+17 IN PTR pc1.hostischev.edu.ua.
+18 IN PTR pc2.hostischev.edu.ua.
+19 IN PTR pc3.hostischev.edu.ua. 
+20 IN PTR pc4.hostischev.edu.ua.
+21 IN PTR pc5.hostischev.edu.ua.
