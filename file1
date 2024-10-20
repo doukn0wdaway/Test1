@@ -1,14 +1,13 @@
-$TTL 86400
-@ 86400 IN SOA ns.example.org. root.example.org. (
-				2003090501
-				28800
-				7200
-				604800
-				86400)
-IN NS ns.example.org.
-1 IN PTR ns.example.org.
-1 IN PTR test.example.org.
-2 IN PTR cmp1.example.org.
-3 IN PTR cmp2.example.org.
-4 IN PTR cmp3.example.org.
-5 IN PTR cmp4.example.org.
+@ IN SOA myrouter dmitry.velichko.edu.ua (
+		20240926001
+		28800
+	        7200
+	        684800
+	        86400)
+	IN NS 172.16.16.16
+myrouter-olexander IN A 172.16.16.16
+pc1 IN A 172.16.16.17
+pc2 IN A 172.16.16.18
+pc3 IN A 172.16.16.19
+pc4 IN A 172.16.16.20
+pc5 IN A 172.16.16.21
